@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
+     // Le code à l'intérieur de cette fonction s'exécutera
+    // seulement une fois que le document HTML (DOM) a été complètement chargé et analysé.
+    // Cela assure que les éléments HTML que le script essaie de manipuler existent.
     const profileImageContainer = document.querySelector('.profile-image-container');
     const profileImage = document.querySelector('.profile-image');
 

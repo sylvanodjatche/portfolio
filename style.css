@@ -445,3 +445,27 @@ footer {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+/* --- Bouton de téléchargement du CV --- */
+.download-cv-btn {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 12px 25px;
+    border-radius: 50px; /* Bordures très arrondies pour un look moderne */
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.download-cv-btn:hover {
+    transform: translateY(-3px) scale(1.02);
+    background-color: var(--primary-color);
+}
+
+.download-cv-btn i {
+    margin-right: 10px;
+}
